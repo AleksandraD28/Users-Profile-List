@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4A01612584AC10009A0000 /* UsersProfileCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A01602584AC10009A0000 /* UsersProfileCardApp.swift */; };
+		FC4A01632584AC10009A0000 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A01622584AC10009A0000 /* ContentView.swift */; };
+		FC4A01652584AC10009A0000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A01642584AC10009A0000 /* Assets.xcassets */; };
+		FC4A01682584AC10009A0000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A01672584AC10009A0000 /* Preview Assets.xcassets */; };
+		FC4A01742584AC11009A0000 /* UsersProfileCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A01732584AC11009A0000 /* UsersProfileCardTests.swift */; };
+		FC4A017F2584AC11009A0000 /* UsersProfileCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A017E2584AC11009A0000 /* UsersProfileCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4A01702584AC11009A0000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4A01552584AC10009A0000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4A015C2584AC10009A0000;
+			remoteInfo = UsersProfileCard;
+		};
+		FC4A017B2584AC11009A0000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4A01552584AC10009A0000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4A015C2584AC10009A0000;
+			remoteInfo = UsersProfileCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC4A015D2584AC10009A0000 /* UsersProfileCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsersProfileCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4A01602584AC10009A0000 /* UsersProfileCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProfileCardApp.swift; sourceTree = "<group>"; };
+		FC4A01622584AC10009A0000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC4A01642584AC10009A0000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4A01672584AC10009A0000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC4A01692584AC10009A0000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4A016A2584AC10009A0000 /* UsersProfileCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UsersProfileCard.entitlements; sourceTree = "<group>"; };
+		FC4A016F2584AC11009A0000 /* UsersProfileCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersProfileCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4A01732584AC11009A0000 /* UsersProfileCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProfileCardTests.swift; sourceTree = "<group>"; };
+		FC4A01752584AC11009A0000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4A017A2584AC11009A0000 /* UsersProfileCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersProfileCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4A017E2584AC11009A0000 /* UsersProfileCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProfileCardUITests.swift; sourceTree = "<group>"; };
+		FC4A01802584AC11009A0000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4A015A2584AC10009A0000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A016C2584AC11009A0000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A01772584AC11009A0000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4A01542584AC10009A0000 = {
+			isa = PBXGroup;
+			children = (
+				FC4A015F2584AC10009A0000 /* UsersProfileCard */,
+				FC4A01722584AC11009A0000 /* UsersProfileCardTests */,
+				FC4A017D2584AC11009A0000 /* UsersProfileCardUITests */,
+				FC4A015E2584AC10009A0000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4A015E2584AC10009A0000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A015D2584AC10009A0000 /* UsersProfileCard.app */,
+				FC4A016F2584AC11009A0000 /* UsersProfileCardTests.xctest */,
+				FC4A017A2584AC11009A0000 /* UsersProfileCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4A015F2584AC10009A0000 /* UsersProfileCard */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A01602584AC10009A0000 /* UsersProfileCardApp.swift */,
+				FC4A01622584AC10009A0000 /* ContentView.swift */,
+				FC4A01642584AC10009A0000 /* Assets.xcassets */,
+				FC4A01692584AC10009A0000 /* Info.plist */,
+				FC4A016A2584AC10009A0000 /* UsersProfileCard.entitlements */,
+				FC4A01662584AC10009A0000 /* Preview Content */,
+			);
+			path = UsersProfileCard;
+			sourceTree = "<group>";
+		};
+		FC4A01662584AC10009A0000 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A01672584AC10009A0000 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC4A01722584AC11009A0000 /* UsersProfileCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A01732584AC11009A0000 /* UsersProfileCardTests.swift */,
+				FC4A01752584AC11009A0000 /* Info.plist */,
+			);
+			path = UsersProfileCardTests;
+			sourceTree = "<group>";
+		};
+		FC4A017D2584AC11009A0000 /* UsersProfileCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A017E2584AC11009A0000 /* UsersProfileCardUITests.swift */,
+				FC4A01802584AC11009A0000 /* Info.plist */,
+			);
+			path = UsersProfileCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4A015C2584AC10009A0000 /* UsersProfileCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4A01832584AC11009A0000 /* Build configuration list for PBXNativeTarget "UsersProfileCard" */;
+			buildPhases = (
+				FC4A01592584AC10009A0000 /* Sources */,
+				FC4A015A2584AC10009A0000 /* Frameworks */,
+				FC4A015B2584AC10009A0000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsersProfileCard;
+			productName = UsersProfileCard;
+			productReference = FC4A015D2584AC10009A0000 /* UsersProfileCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4A016E2584AC11009A0000 /* UsersProfileCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4A01862584AC11009A0000 /* Build configuration list for PBXNativeTarget "UsersProfileCardTests" */;
+			buildPhases = (
+				FC4A016B2584AC11009A0000 /* Sources */,
+				FC4A016C2584AC11009A0000 /* Frameworks */,
+				FC4A016D2584AC11009A0000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4A01712584AC11009A0000 /* PBXTargetDependency */,
+			);
+			name = UsersProfileCardTests;
+			productName = UsersProfileCardTests;
+			productReference = FC4A016F2584AC11009A0000 /* UsersProfileCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC4A01792584AC11009A0000 /* UsersProfileCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4A01892584AC11009A0000 /* Build configuration list for PBXNativeTarget "UsersProfileCardUITests" */;
+			buildPhases = (
+				FC4A01762584AC11009A0000 /* Sources */,
+				FC4A01772584AC11009A0000 /* Frameworks */,
+				FC4A01782584AC11009A0000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4A017C2584AC11009A0000 /* PBXTargetDependency */,
+			);
+			name = UsersProfileCardUITests;
+			productName = UsersProfileCardUITests;
+			productReference = FC4A017A2584AC11009A0000 /* UsersProfileCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4A01552584AC10009A0000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FC4A015C2584AC10009A0000 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FC4A016E2584AC11009A0000 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FC4A015C2584AC10009A0000;
+					};
+					FC4A01792584AC11009A0000 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FC4A015C2584AC10009A0000;
+					};
+				};
+			};
+			buildConfigurationList = FC4A01582584AC10009A0000 /* Build configuration list for PBXProject "UsersProfileCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4A01542584AC10009A0000;
+			productRefGroup = FC4A015E2584AC10009A0000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4A015C2584AC10009A0000 /* UsersProfileCard */,
+				FC4A016E2584AC11009A0000 /* UsersProfileCardTests */,
+				FC4A01792584AC11009A0000 /* UsersProfileCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4A015B2584AC10009A0000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A01682584AC10009A0000 /* Preview Assets.xcassets in Resources */,
+				FC4A01652584AC10009A0000 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A016D2584AC11009A0000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A01782584AC11009A0000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4A01592584AC10009A0000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A01632584AC10009A0000 /* ContentView.swift in Sources */,
+				FC4A01612584AC10009A0000 /* UsersProfileCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A016B2584AC11009A0000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A01742584AC11009A0000 /* UsersProfileCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A01762584AC11009A0000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A017F2584AC11009A0000 /* UsersProfileCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4A01712584AC11009A0000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4A015C2584AC10009A0000 /* UsersProfileCard */;
+			targetProxy = FC4A01702584AC11009A0000 /* PBXContainerItemProxy */;
+		};
+		FC4A017C2584AC11009A0000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4A015C2584AC10009A0000 /* UsersProfileCard */;
+			targetProxy = FC4A017B2584AC11009A0000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC4A01812584AC11009A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC4A01822584AC11009A0000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FC4A01842584AC11009A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UsersProfileCard/UsersProfileCard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"UsersProfileCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 6S5UW3H7M3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UsersProfileCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aleksandraD.UsersProfileCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FC4A01852584AC11009A0000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UsersProfileCard/UsersProfileCard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"UsersProfileCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 6S5UW3H7M3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UsersProfileCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aleksandraD.UsersProfileCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FC4A01872584AC11009A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6S5UW3H7M3;
+				INFOPLIST_FILE = UsersProfileCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aleksandraD.UsersProfileCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsersProfileCard.app/Contents/MacOS/UsersProfileCard";
+			};
+			name = Debug;
+		};
+		FC4A01882584AC11009A0000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6S5UW3H7M3;
+				INFOPLIST_FILE = UsersProfileCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aleksandraD.UsersProfileCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsersProfileCard.app/Contents/MacOS/UsersProfileCard";
+			};
+			name = Release;
+		};
+		FC4A018A2584AC11009A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6S5UW3H7M3;
+				INFOPLIST_FILE = UsersProfileCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aleksandraD.UsersProfileCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UsersProfileCard;
+			};
+			name = Debug;
+		};
+		FC4A018B2584AC11009A0000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6S5UW3H7M3;
+				INFOPLIST_FILE = UsersProfileCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aleksandraD.UsersProfileCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UsersProfileCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4A01582584AC10009A0000 /* Build configuration list for PBXProject "UsersProfileCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A01812584AC11009A0000 /* Debug */,
+				FC4A01822584AC11009A0000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4A01832584AC11009A0000 /* Build configuration list for PBXNativeTarget "UsersProfileCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A01842584AC11009A0000 /* Debug */,
+				FC4A01852584AC11009A0000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4A01862584AC11009A0000 /* Build configuration list for PBXNativeTarget "UsersProfileCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A01872584AC11009A0000 /* Debug */,
+				FC4A01882584AC11009A0000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4A01892584AC11009A0000 /* Build configuration list for PBXNativeTarget "UsersProfileCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A018A2584AC11009A0000 /* Debug */,
+				FC4A018B2584AC11009A0000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4A01552584AC10009A0000 /* Project object */;
+}
