@@ -13,6 +13,7 @@
 		FC4A01682584AC10009A0000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A01672584AC10009A0000 /* Preview Assets.xcassets */; };
 		FC4A01742584AC11009A0000 /* UsersProfileCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A01732584AC11009A0000 /* UsersProfileCardTests.swift */; };
 		FC4A017F2584AC11009A0000 /* UsersProfileCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A017E2584AC11009A0000 /* UsersProfileCardUITests.swift */; };
+		FC4A01902584B876009A0000 /* Users.proto in Sources */ = {isa = PBXBuildFile; fileRef = FC4A018F2584B876009A0000 /* Users.proto */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		FC4A017A2584AC11009A0000 /* UsersProfileCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsersProfileCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4A017E2584AC11009A0000 /* UsersProfileCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProfileCardUITests.swift; sourceTree = "<group>"; };
 		FC4A01802584AC11009A0000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4A018F2584B876009A0000 /* Users.proto */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.protobuf; path = Users.proto; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				FC4A01692584AC10009A0000 /* Info.plist */,
 				FC4A016A2584AC10009A0000 /* UsersProfileCard.entitlements */,
 				FC4A01662584AC10009A0000 /* Preview Content */,
+				FC4A018F2584B876009A0000 /* Users.proto */,
 			);
 			path = UsersProfileCard;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4A01632584AC10009A0000 /* ContentView.swift in Sources */,
+				FC4A01902584B876009A0000 /* Users.proto in Sources */,
 				FC4A01612584AC10009A0000 /* UsersProfileCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
